@@ -1,4 +1,3 @@
-[![Udacity - Robotics Nanodegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
 ## Semantic Segmentation Lab ##
 
@@ -9,11 +8,7 @@ Make sure you have followed the instructions in the [classroom](https://classroo
 #### Clone the Repository and Run the Notebook
 
 Run the commands below to clone the lab repository and then run the notebook:
-```sh
-git clone https://github.com/udacity/RoboND-Segmentation-Lab.git
-# Make sure your conda environment is activated!
-jupyter notebook
-```
+
 The Jupyter interface will open in your browser. You can then access the cloned repo and the Jupyter Notebook from there. We are specifically working with the `segmentation_lab.ipynb` which can be found in following path `code/segmentation_lab.ipynb`.
 
 #### Download the Data
@@ -25,4 +20,3 @@ Once the notebook is up and running and the data is downloaded, you can follow t
 
 It is important to note that some computer platforms (CPU-only) may take up to 3 hours to train the network, depending on a few factors. 
 
-The recommended strategy for dealing with this problem is to complete the building out the notebook and debugging on your local system before moving to a faster system for the training portion.  Once your network is running correctly you can then launch your notebook from your AWS instance in order to speed up training times. More information on running a Jupyter Notebook from AWS can be found [here.](https://classroom.udacity.com/nanodegrees/nd209/parts/09664d24-bdec-4e64-897a-d0f55e177f09/modules/cac27683-d5f4-40b4-82ce-d708de8f5373/lessons/197a058e-44f6-47df-8229-0ce633e0a2d0/concepts/27c73209-5d7b-4284-8315-c0e07a7cd87f?contentVersion=1.0.0&contentLocale=en-us)    
